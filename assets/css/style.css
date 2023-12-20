@@ -1,0 +1,40 @@
+/*browser default settings*/
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*generic style*/
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+/* header */
+header {
+    max-width: 100%;
+    position: relative;
+    z-index: 600;
+    display: flex;
+    border-bottom: 4px solid;
+    background-color: #37474f;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/*logo*/
+#logo {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 90px;
+    color: #ab47bc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 150px;
+
+}
