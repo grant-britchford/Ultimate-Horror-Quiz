@@ -62,6 +62,13 @@ the High scores page has the same set up as the other pages but this time includ
 
 ### Deployment
 
+Deployment was carried out once the basic structure of the website was built and was done using the following stepsn on GITHUB:
+- From the GITHUB repository, Click on settings at the top of the page.
+- From the general settings nlist on then left of the screen, click pages.
+- At the branch dropdown select main, this should then mark the second dropdown as root, if thisn si correct click save.
+- Return to the repository and on the right handn of the screen you should see a box named deployments and a yellow light next to github-pages. Wait for this to go green green.
+- Click on Deployments and at the top of the screen there is a github-pages website link, click this link to go to the live site.
+
 ### Credits
 - Image sourced from pexels.com
 - Font sourced from fonts.googleapis.com
