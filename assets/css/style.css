@@ -40,6 +40,19 @@ h1 {
     background: url("../images/pexels-pixabay-289367.jpg") no-repeat center center/cover;
 }
 
+#main-menu {
+    box-sizing: content-box;
+    border: 2px solid;
+    background-color: #ab47bc;
+    width: 20%;
+    margin-left: 48rem;
+    margin-top: -34rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
 /* footer */
 footer {
     width: 100%;
