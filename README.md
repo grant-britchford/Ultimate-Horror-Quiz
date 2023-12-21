@@ -62,7 +62,7 @@ the High scores page has the same set up as the other pages but this time includ
 
 ### Deployment
 
-Deployment was carried out once the basic structure of the website was built and was done using the following stepsn on GITHUB:
+Deployment was carried out once the basic structure of the website was built and was done using the following steps on GITHUB:
 - From the GITHUB repository, Click on settings at the top of the page.
 - From the general settings nlist on then left of the screen, click pages.
 - At the branch dropdown select main, this should then mark the second dropdown as root, if thisn si correct click save.
