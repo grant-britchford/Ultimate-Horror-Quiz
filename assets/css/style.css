@@ -45,12 +45,41 @@ h1 {
     border: 2px solid;
     background-color: #ab47bc;
     width: 20%;
-    margin-left: 48rem;
-    margin-top: -34rem;
+    margin-left: 44rem;
+    margin-top: -44rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     text-align: center;
     color: black;
+    padding: 2em;
+}
+
+#home {
+    color: black;
+}
+
+#how-to-play {
+    color: black;
+}
+
+#how-to-play:hover {
+    color: #ffffff
+}
+
+#play-quiz {
+    color: black;
+}
+
+#play-quiz:hover {
+    color: #ffffff;
+}
+
+#high-scores {
+    color: #000000;
+}
+
+#high-scores:hover {
+    color: #ffffff;
 }
 
 /* footer */
