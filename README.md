@@ -20,7 +20,8 @@ The live link is: https://grant-britchford.github.io/Ultimate-Horror-Quiz/
 
 ### Criteria
 
-this website is designed for quiz players who like Horror films and anything macabre. the game though not gruesome is probably better for those of 12yrs+ due to the content. The quiz is based on three sets of questions with easy being 10pts, medium being 20pts and hard being 30pts with 20 questions in each set.
+The ultimate horror quiz is an online quiz game with questions on real life serial killers. Due to the content of these questions i have kept the questions to history decades so it doesn't cause any offence to any families.
+The target audience for this quiz is for people who are interested in history and the macabre side of history.
 
 ### Design
 
