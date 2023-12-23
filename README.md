@@ -33,6 +33,11 @@ The Homepage is made up a header and footer with an image as background with the
 
 #### Instruction page
 
+The instructions can be reached by clicking on the how to play menu button and this will expand the instructions in a drop down box.
+
+![instructions page](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/99ef5a59-abf5-4845-8b19-3154eb61be3b)
+
+
 #### Quiz page
 
 the quiz page is made up as the home page but the quiz area which consists of the question and answers, score and timer.
@@ -49,6 +54,7 @@ the High scores page has the same set up as the other pages but this time includ
 ### Technologies
 
 - Wireframe Sketcher was used to design the website layout.
+- Instruction page wireframe was created using lucidchart.com.
 - HTML was used to construct the body of the website.
 - CSS was used to give the pages design and responsiveness.
 - JavaScript was used to 
