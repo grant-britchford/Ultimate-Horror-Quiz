@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
 /* default browser settings */
 * {
     margin: 0;
@@ -90,6 +92,16 @@ h1 {
 
 #high-scores:hover {
     color: #ffffff;
+}
+
+/* high scores page */
+#score-table {
+    font-family: 'Emilys Candy', serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #cc0000;
+    margin-left: -105rem;
+    margin-top: 2em;
 }
 
 /* footer */
