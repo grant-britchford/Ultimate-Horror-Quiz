@@ -95,12 +95,12 @@ h1 {
 /* high scores page */
 #score-table {
     font-family: 'Emilys Candy', serif;
-    text-align: center;
-    font-size: 3rem;
-    color: #cc0000;
-    margin-left: -105rem;
-    margin-top: 2em;
+    color: red;
+    font-size: 35px;
+    margin-left: -70rem;
+    margin-top: 2rem;
 }
+
 
 /* footer */
 footer {
