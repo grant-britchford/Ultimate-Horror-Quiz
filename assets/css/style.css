@@ -96,9 +96,24 @@ h1 {
 #score-table {
     font-family: 'Emilys Candy', serif;
     color: red;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: -70rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    text-decoration: underline;
+}
+
+.table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    box-sizing: content-box;
+    columns: 2;
+    background-color: #ab47bc;
+    display: flex;
+    height: 40rem;
+    width: 30rem;
+    border: 3px solid black;
+    margin-top: 10rem;
+    margin-left: -25rem;
 }
 
 

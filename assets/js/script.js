@@ -1,8 +1,4 @@
 // high scores table
-let highScores= [
-    {'name:[] score:[]'}
-];
-
 let table= document.createElement("table");
 
 let headerRow= document.createElement("tr");
