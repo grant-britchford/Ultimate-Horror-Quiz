@@ -57,13 +57,15 @@ the High scores page has the same set up as the other pages but this time includ
 - Instruction page wireframe was created using lucidchart.com.
 - HTML was used to construct the body of the website.
 - CSS was used to give the pages design and responsiveness.
-- JavaScript was used to 
+- JavaScript was used to make the game page and high score table to run smoothly and clean up the HTML and CSS code.
 
 ### Features
 
 ### Improvements
 
 ### Testing
+
+- The Javascript code was typed in using Visual Studio to make sure the code is clean and works.
 
 ### Bugs
 
@@ -79,5 +81,6 @@ Deployment was carried out once the basic structure of the website was built and
 ### Credits
 - Image sourced from pexels.com
 - Font sourced from fonts.googleapis.com
+- Questions were sourced from "The Ultimate Serial Killer trivia Book authored by Jack Rosewood".
 
 ### Acknowledgements
