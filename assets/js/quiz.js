@@ -3,6 +3,7 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+
 let currentQuestion = {};
 let acceptAnswers = false;
 let score = 0;
@@ -168,12 +169,7 @@ getNewQuestion = () => {
         return window.location.assign("/scores.html");
     }
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-
-    const questionIndex = math.floor(math.random() * availableQuestions.length);
-    currentQuestion = availableQuestions[questionIndex];
-    question.innertext = currentQuestion.question;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
 
     choices.forEack(choice => {
         const number = choice.dataset["number"];
@@ -181,23 +177,27 @@ getNewQuestion = () => {
     });
 
     availableQuestions.splice(questionIndex, 1);
-    acceptingAnswers = true;
+    acceptAnswers = true;
 };
 
-const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+choices.forEach(choice => {
+    choice.addEventListener("click", e => {
+        if(! acceptAnswers)return;
 
-if (classToApply === "correct") {
-    incrementScore(CORRECT_Answer);
-}
+        acceptAnswers = false;
 
-selectedChoice.parentElement.classList.add(classToApply);
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
 
-setTimeout(() => {
-    selectedChoice.parentElement.classList.remove(classToApply);
-    getNewQuestion();
-}, 1000);
+        const classToApply =
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
-incrementScore = num => {
-    score += num;
-    scoreText.innerText = score;
-};
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+        }, 1000);
+    })
+})
+
+startGame();

@@ -70,13 +70,13 @@ h1 {
     color: #ffffff
 }
 
-#play-quiz {
+#play-game {
     color: black;
     text-align: center;
     text-decoration: none;
 }
 
-#play-quiz:hover {
+#play-game:hover {
     color: #ffffff;
 }
 
@@ -107,6 +107,26 @@ h1 {
     margin-left: 50rem;
     margin-top: 12rem;
     display: flex;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.choice-prefix {
+    color: #000000;
+}
+
+.choice-prefix:hover {
+    color: #ffffff;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }
 
 /* high scores page */
