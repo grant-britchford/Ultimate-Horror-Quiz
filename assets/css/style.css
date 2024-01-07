@@ -133,6 +133,18 @@ h2 {
     color: red;
 }
 
+#progressBar {
+    width: 20rem;
+    height: 5rem;
+    border: 1px solid;
+}
+
+#progressBarFull {
+    height: 5rem;
+    width: 0%;
+    background-color: aqua;
+}
+
 /* high scores page */
 #score-table {
     font-family: 'Emilys Candy', serif;
