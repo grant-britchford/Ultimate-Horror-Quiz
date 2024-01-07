@@ -92,6 +92,23 @@ h1 {
     color: #ffffff;
 }
 
+/* quiz page */
+.container {
+    box-sizing: content-box;
+    border: 2px solid;
+    background-color: #ab47bc;
+    width: 10%;
+    height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+    padding: 2em;
+    margin-left: 50rem;
+    margin-top: 12rem;
+    display: flex;
+}
+
 /* high scores page */
 #score-table {
     font-family: 'Emilys Candy', serif;
