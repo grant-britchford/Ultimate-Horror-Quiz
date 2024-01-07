@@ -57,9 +57,13 @@ the High scores page has the same set up as the other pages but this time includ
 - Instruction page wireframe was created using lucidchart.com.
 - HTML was used to construct the body of the website.
 - CSS was used to give the pages design and responsiveness.
-- JavaScript was used to make the game page and high score table to run smoothly and clean up the HTML and CSS code.
+- JavaScript was used to make the game page and high score table run smoothly and clean up the HTML and CSS code.
 
 ### Features
+
+- Page header.
+- Page footer.
+- Interactive quiz.
 
 ### Improvements
 
