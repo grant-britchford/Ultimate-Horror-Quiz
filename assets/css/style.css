@@ -109,6 +109,10 @@ h1 {
     display: flex;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .container:hover {
     cursor: pointer;
 }

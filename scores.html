@@ -38,7 +38,22 @@
           <th>Name</th>
           <th>Score</th>
         </thead>
+        <form>
+          <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          />
+          <button
+          type="submit"
+          class="btn"
+          id="saveScoreBtn"
+          onclick="saveHighScore(event)"
+          >Save</button>
+        </form>
       </div>
+      
     </main>
     <!--javascript-->
     <script src="assets/js/script.js"></script>
