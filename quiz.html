@@ -37,33 +37,32 @@
           <div id="game" class="justify-center flex-column">
             <div id="hud">
               <div id="hud-item">
-                <p class="hud-prefix">Question</p>
-              <h2 class="hud-main-text" id="questionCounter"></h2>
+                <div id="hud-item"><p class="hud-prefix">Score</p>
+                <h2 class="hud-prefix" id="score">0</h2>
             </div>
             <br>
-            <div id="hud-item"><p class="hud-prefix">Score</p>
-              <h2 class="hud-prefix" id="score">0</h2>
+              <p class="hud-prefix">Question</p>
+              <h2 class="hud-main-text" id="questionCounter"></h2>
             </div>
             <br>
             <div class="choice-container">
               <p class="choice-prefix">A</p>
-              <p class="choice-text" data-number="1">Choice 1</p>
             </div>
             <br>
             <div class="choice-container">
               <p class="choice-prefix">B</p>
-              <p class="choice-text" data-number="1">Choice 2</p>
             </div>
             <br>
             <div class="choice-container">
               <p class="choice-prefix">C</p>
-              <p class="choice-text" data-number="1">Choice 3</p>
-          </div>
+            </div>
         </div>
+        <a id="play"  class="btn" href="quiz.html">Play Again</a>
+        <a id="home"  class="btn" href="index.html">Home</a>
       </div>
     </main>
     <!--javascript-->
-    <script src="assets/js/quiz.js"></script>
+    <script src="JSON/quiz.js"></script>
     <!-- footer-->
     <footer>
       <p>Copyright @ G.Britchford-pp2: 2023</p>

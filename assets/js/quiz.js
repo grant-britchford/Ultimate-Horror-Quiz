@@ -166,7 +166,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
-        return window.location.assign("/scores.html");
+        return window.location.assign("scores.html");
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
