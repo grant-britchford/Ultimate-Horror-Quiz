@@ -1,4 +1,4 @@
-const question = document.getElementById("question");
+const question = document.getElementById("game");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
@@ -159,7 +159,7 @@ const MAX_QUESTIONS = 15;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = [...game];
     getNewQuestion();
 };
 
