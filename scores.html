@@ -35,12 +35,10 @@
       <div id="highScore">
         <h3>Congratulations</h3>
         <br>
-        <thead>
-          <th>Position</th>
-          <th>Name</th>
-          <th>Score</th>
-        </thead>
+         <a id="play"  class="btn" href="quiz.html">Play Again</a>
+        <a id="home"  class="btn" href="index.html">Home</a>
         <form>
+          <br>
           <input
           type="text"
           name="username"
@@ -54,13 +52,19 @@
           onclick="saveHighScore(event)"
           >Save</button>
         </form>
-        <a id="play"  class="btn" href="quiz.html">Play Again</a>
-        <a id="home"  class="btn" href="index.html">Home</a>
+        <br>
+        <thead>
+          <th>Position</th>
+          <th>Name</th>
+          <th>Score</th>
+        </thead>
       </div>
       
     </main>
     <!--javascript-->
     <script src="assets/js/scores.js"></script>
+    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/JSON"></script>
 
     <footer>
       <p>Copyright @ G.Britchford-pp2: 2023</p>

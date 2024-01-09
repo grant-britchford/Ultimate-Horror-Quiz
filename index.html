@@ -43,10 +43,23 @@
       <div id="hero"></div>
       <!-- main menu -->
       <nav id="main-menu">
-        <h3><a href="index.html" id="home" class="active">Main Menu</a></h3>
-        <br />
+        <h3>Main Menu</h3>
+        <br>
         <div>
-          <p><a href="instructions.html" id="how-to-play">How to Play</a></p>
+          <div class="dropdown">
+            <a id="instruct" class="dropbtn" href="index.html">How to Play</a>
+            <div class="dropdown-content">
+              <h3 id="title">Instructions</h3>
+              <br>
+              <ol id="instruct">
+                <li>To play the quiz use the play button in the main menu.</li>
+                <li>To view the high score page, use the high score button in the main menu.</li>
+                <li>Each page has a home button which when pressed will take you back to the main menu.</li>
+                <li>Pages have a replay again button.</li>
+                <li>To play the quiz. read the question then answer using the choice buttons. All questions are timed.</li>
+              </ol>
+            </div>
+          </div>
           <br />
           <p><a href="quiz.html" id="play-game">Play</a>
           <br />
@@ -60,6 +73,8 @@
     </footer>
 
     <!--javascript-->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/scores.js"></script>
+    <script src="assets/js/JSON"></script>
   </body>
 </html>
