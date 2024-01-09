@@ -171,7 +171,7 @@ getNewQuestion = () => {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
 
-    choices.forEack(choice =>) {
+    choices.forEack(choice => {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
     });
@@ -181,7 +181,7 @@ getNewQuestion = () => {
 };
 
 choices.forEach(choice => {
-    choice.addEventListener("click", e =>) {
+    choice.addEventListener("click", e => {
         if(! acceptAnswers)return;
 
         acceptAnswers = false;
