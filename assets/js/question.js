@@ -133,5 +133,3 @@
         "answer": 2
     }
 ];
-
-startgame();
