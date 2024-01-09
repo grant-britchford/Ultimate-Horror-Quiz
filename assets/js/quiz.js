@@ -1,4 +1,4 @@
-const question = document.getElementById("game");
+const question = document.getElementById("hud");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
