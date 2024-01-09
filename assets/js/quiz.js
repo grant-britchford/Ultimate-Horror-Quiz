@@ -13,37 +13,36 @@ let availableQuestions= [];
 let questions = [
     {
         question: "Who was the serial killer that inspired Thomas Harris when writing Silence of the lambs?",
-        choice1: "<Ed Gein>",
-        choice2: "<Alfredo Balli Trevino>",
-        choice3: "<Walter Ellis>",
-        answer: 2
+        choiceA: "Ed Gein",
+        choicB: "Alfredo Balli Trevino",
+        choice: "Walter Ellis",
+        answer: B
     },
     {
         question: "In 1993 who decapitated his wifes lover and presented her the head?",
-        choice1: "<Harold Shipman>",
-        choice2: "<Roy Norris>",
-        choice3: "<Stephen Schap>",
-        answer: 3
+        choiceA: "Harold Shipman",
+        choiceB: "Roy Norris",
+        choiceC: "Stephen Schap",
+        answer: C
     },
     {
         question: "Who terrorised Whitechapel in 1888?",
-        choice1: "<Springheeled Jack>",
-        choice2: "<Albert Fish>",
-        choice3: "<Jack the Ripper>",
-        answer: 3
+        choiceA: "Springheeled Jack",
+        choiceB: "Albert Fish",
+        choiceC: "Jack the Ripper",
+        answer: C
     },
     {
         question: "What was the reason given by Dana Sue Gray for her 1994 muredr spree?",
-        choice1: "<Retail Therapy>",
-        choice2: "<Voices in her head>",
-        choice3: "<Excitement>",
-        answer: 1
+        choiceA: "Retail Therapy",
+        choiceB: "Voices in her head",
+        choiceC: "Excitement",
+        answer: A
     },
     {
-        question: "What Australian serial killer was inspired by Chucky the doll from the Childs Play movie",
-        choice1: "<Samuel Betts>",
-        choice2: "<Martin Bryant>",
-        choice3: "<Edmund Kemper>",
+        question: "What Australia",
+        choice2: "Martin Bryant>",
+        choice3: "Edmund Kemper>",
         answer: 2
     },
     {
