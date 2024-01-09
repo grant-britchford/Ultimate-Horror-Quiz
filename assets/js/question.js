@@ -132,4 +132,6 @@
         "choice3": "<Last House on the Left>",
         "answer": 2
     }
-]
+];
+
+startgame();

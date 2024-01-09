@@ -1,22 +1,22 @@
 /* high score table input */
-const username = document.getElementById('username');
-const saveScoreBtn = document.getElementById('saveScoreBtn');
-const finalScore = document.getElementById('finalScore');
+const username= document.getElementById('username');
+const saveScoreBtn= document.getElementById('saveScoreBtn');
+const finalScore= document.getElementById('finalScore');
 
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const highScores= JSON.parse(localStorage.getItem('highScores')) || [];
 
-const max_high_scores = 15;
+const max_high_scores= 15;
 
-finalScore.innerText = mostRecentScore;
+finalScore.innerText= mostRecentScore;
 
 username.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !username.value;
+    saveScoreBtn.disabled= !username.value;
 });
 
-saveHighScore = (e) => {
+saveHighScore= (e) => {
     e.preventDefault();
 
-    const score = {
+    const score= {
         score: mostRecentScore,
         name: username.value,
     };
