@@ -159,7 +159,7 @@ const MAX_QUESTIONS = 15;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...game];
+    availableQuestions = [...questions];
     getNewQuestion();
 };
 
