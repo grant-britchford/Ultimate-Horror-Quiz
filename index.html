@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate Horror Quiz</title>
@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <header>
+      <h1>The Ultimate Horror Quiz</h1>
+    </header>
+    <!-- quiz container -->
+    <div id="quizContainer">
+      <div class="myQuestions"></div>
+      <br />
+      <div class="answers">
+        <button class="radio" id="choice1">A</button>
+        <br />
+        <button class="radio" id="choice2">B</button>
+        <br />
+        <button class="radio" id="choice3">C</button>
+      </div>
+      <p class="scores">Correct Answers</p>
+      <br />
+      <p><span id="score">0</span></p>
+      <br />
+      <button class="btn">Submit</button>
+    </div>
 <!-- javascript link -->
  <script src="assets/js/quiz.js"></script>   
 </body>
