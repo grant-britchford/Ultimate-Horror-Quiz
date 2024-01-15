@@ -7,9 +7,23 @@ body {
 
 h1 {
     position: relative;
-    font-family: 'Cinzel Decorative', serif;
-    font-size: 60px;
+    font-family: 'Creepster', system-ui;;
+    font-size: 70px;
     text-align: center;
     margin-top: 2rem;
+    color: #ffebff;
+}
+
+#quizContainer {
+    position: absolute;
+    box-sizing: content-box;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    size: 100%;
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-left: 50rem;
+    font-family: 'Creepster', system-ui;;
+    font-size: 30px;
     color: #ffebff;
 }
