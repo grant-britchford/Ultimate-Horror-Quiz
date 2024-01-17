@@ -21,7 +21,7 @@ h1 {
     border-radius: 1rem;
     size: 100%;
     padding: 2rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
     margin-left: 50rem;
     font-family: 'Creepster', system-ui;;
     font-size: 30px;
@@ -45,5 +45,12 @@ h1 {
     font-size: 20px;
     color: #ffebff;
     text-align: center;
+}
+
+.scores {
+    font-family: 'Creepster', system-ui;
+    font-size: 30px;
+    text-align: center;
+    color: #ffebff;
 }
 
