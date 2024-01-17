@@ -9,6 +9,7 @@
 - Improvements
 - Testing
 - Bugs
+- Unsolved Bugs
 - Deployment
 - Credits
 - Acknowledgements
