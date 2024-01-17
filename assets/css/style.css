@@ -28,6 +28,13 @@ h1 {
     color: #ffebff;
 }
 
+.scores {
+    font-family: 'Creepster', system-ui;
+    font-size: 30px;
+    text-align: center;
+    color: #ffebff;
+}
+
 #btn {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
@@ -47,10 +54,5 @@ h1 {
     text-align: center;
 }
 
-.scores {
-    font-family: 'Creepster', system-ui;
-    font-size: 30px;
-    text-align: center;
-    color: #ffebff;
-}
+
 
