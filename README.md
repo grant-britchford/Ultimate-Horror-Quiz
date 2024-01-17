@@ -34,11 +34,11 @@ The Ultimate horror Quiz is an online quiz based on real life serial killers and
 
 ### Testing
 
-- Javascript was typed in using the GitPod code Editor to clarify the code worked as it should and is clean before being pushed to the main branch on GitHub.
+- All Javascript code was done using Gitpod code editorb and was tested using the devtools console before being pushed to the main Github repository.
 
 ### Bugs
 
-#### Unsolved Bugs
+### Unsolved Bugs
 
 ### Deployment
 
