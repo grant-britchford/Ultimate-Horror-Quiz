@@ -1,7 +1,17 @@
-const quizContainer = document.getElementById('quizConatainer');
-const submitButton = document.getElementById('btn');
-
-const myQuestions = [
+document.addEventListener("DOMContentLoaded", function() {
+   let button= document.getElementsByTagName("button");
+   for (button of buttons) {
+      button.addEventListener("click", function() {
+        if (this.getAttribute('data-type') === "submit") {
+         alert("You clicked Submit!")
+        } else {
+         let gameType= this.getAttribute('data-type');
+         alert(`You Clicked ${gameType}`);
+        }
+      })
+   }
+})
+var myQuestions = [
    {
       question:"Which serial killer was the inspiration for Thomas Harris' Silence of the Lambs?",
       answers: {
@@ -184,23 +194,7 @@ const myQuestions = [
    }
    ];
 
-   function buildQuiz() {
-      const output = [];
-
-      myQuestions.forEach((currentQuestion, questionNumber) =>
-      {
-         const answers = [];
-
-         for(letter in currentQuestion.answers[0]) {
-         answers.push()
-         }
-
-         output.push(`<div class="question"> ${currentQuestion.question} </div>
-         <div class="answers"> ${answers.join('')} </div>`);
-      })
-      quizContainer.innerHTML = output.join('');
-   }
-
+   
   
 
    
