@@ -24,12 +24,18 @@ h1 {
     padding: 2rem;
 }
 
+#myQtn {
+    font-family: 'creepster', system-ui,;
+    font-size: 20px;
+    color: #ffebff;
+}
+
 .bt::after {
     content: attr(dataType);
 }
 
 .btn {
-    cursor: progress;
+    cursor: pointer;
     margin: .1em;
     margin-top: 4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -44,6 +50,8 @@ h1 {
 .btn:hover {
     background-color: aqua;
 }
+
+
 
 
 

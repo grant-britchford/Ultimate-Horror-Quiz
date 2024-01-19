@@ -1,17 +1,27 @@
 document.addEventListener("DOMContentLoaded", function() {
-   let button= document.getElementsByTagName("button");
+   let buttons= document.getElementsByTagName("button");
+   
    for (button of buttons) {
       button.addEventListener("click", function() {
-        if (this.getAttribute('data-type') === "submit") {
+        if (this.getAttribute("data-type") === "submit") {
          alert("You clicked Submit!")
         } else {
-         let gameType= this.getAttribute('data-type');
-         alert(`You Clicked ${gameType}`);
+         let gameType= this.getAttribute("data-type");
+         runGame("quiz");
         }
       })
    }
 })
-var myQuestions = [
+
+function runGame(gameType) {
+   let questions= myQtn.floor(myQtn.random() * 20);
+}
+
+function displayQuestion(questions) {
+   document.getElementById("myQtn").textContent;
+};
+
+let questions= [
    {
       question:"Which serial killer was the inspiration for Thomas Harris' Silence of the Lambs?",
       answers: {
@@ -192,7 +202,8 @@ var myQuestions = [
       },
       correctAnswer: "C"  
    }
-   ];
+];
+console.log(questions);
 
    
   
