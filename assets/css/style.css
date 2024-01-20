@@ -14,7 +14,7 @@ h1 {
     color: #ffebff;
 }
 
-.quizContainer {
+.quiz {
     display: block;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -24,17 +24,21 @@ h1 {
     padding: 2rem;
 }
 
-#myQtn {
+.question {
     font-family: 'creepster', system-ui,;
     font-size: 20px;
     color: #ffebff;
 }
 
-.bt::after {
-    content: attr(dataType);
+.choices {
+    font-family: 'creepster', system-ui,;
+    font-size: 20px;
+    color: #ffebff;
 }
 
-.btn {
+
+
+#submit {
     cursor: pointer;
     margin: .1em;
     margin-top: 4rem;
@@ -45,9 +49,8 @@ h1 {
     padding: .2rem;
     
 }
- 
-.btn:active,
-.btn:hover {
+
+#submit:hover {
     background-color: aqua;
 }
 
