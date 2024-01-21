@@ -52,7 +52,7 @@ This site has a fully functioning quiz game with scores, results and instruction
 
 ### Testing
 
-- All Javascript code was done using Gitpod code editorb and was tested using the devtools console before being pushed to the main Github repository.
+- All Javascript code was done using Gitpod code editor and was tested using the dev tools console before being pushed to the main Github repository.
 - HTML validation was carried out on W3C's markup validation service.
 ![HTML validation](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/35476816-0f05-447b-93fd-2996fece6645)
 
