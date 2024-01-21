@@ -68,11 +68,11 @@ This site has a fully functioning quiz game with scores, results and instruction
 
 ### Bugs
 
-I had issues with the javascript to begin with then managed to sole the bugs i was getting by using an IDE platform which helped a lot.
+I had issues with the javascript to begin with then managed to solve the bugs i was getting by using an IDE platform which helped a lot.
 
 ### Unsolved Bugs
 
-No unsolved bugs. All buges were dealt with.
+No unsolved bugs. All bugs were dealt with.
 
 ### Deployment
 
