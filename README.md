@@ -48,7 +48,7 @@ This is the basic concept for the quiz page.
 
 ### Features
 
-This site has a fully functioning quiz game with score results and instructions on how to play.
+This site has a fully functioning quiz game with scores, results and instructions on how to play.
 
 ### Testing
 
