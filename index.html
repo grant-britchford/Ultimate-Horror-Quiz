@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang= "en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
     <title>Ultimate Horror Quiz</title>
     <!-- favicon -->
-    <link rel="icon" type="image/png"  href="assets/images/icons8-horror-64.png">
+    <link rel= "icon" type= "image/png" href= "assets/images/icons8-horror-64.png">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel= "stylesheet" href= "assets/css/style.css">
+    <link rel= "preconnect" href= "https://fonts.googleapis.com">
+    <link rel= "preconnect" href= "https://fonts.gstatic.com" crossorigin>
+    <link href= "https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-      <h1>The Ultimate Horror Quiz</h1>
+        <h1>The Ultimate Horror Quiz</h1>
     </header>
-    <!-- quiz container -->
-    <div id="quizContainer">
-      <div class="myQuestions"></div>
-      <br />
-      <div class="answers">
-        <button class="radio" id="choice1">A</button>
-        <br />
-        <button class="radio" id="choice2">B</button>
-        <br />
-        <button class="radio" id="choice3">C</button>
-      </div>
-      <p class="scores">Correct Answers</p>
-      <br />
-      <p><span id="score">0</span></p>
-      <br />
-      <button class="btn">Submit</button>
+    <div class= "start-screen">
+        <ul id= "how-to">
+            <li>To play the game press start.</li>
+            <li>the game will load with the first question and the timer will start.</li>
+            <li>Click on the answer you choose and if right it will turn green and if incorrect it will turn red.</li>
+            <li>Once you have answered the questions click next</li>
+            <li>This will bring up your score and a restart button if you wish to try again.</li>
+        </ul>
+        <br>
+        <button id= "start-button">Start</button>
     </div>
-<!-- javascript link -->
- <script src="assets/js/quiz.js"></script>   
+    <div id= "display-container">
+        <div class= "header">
+            <div class= "number-of-count">
+                <span class= "number-of-question">1 of 20 questions</span>
+            </div>
+            <div class= "timer-div">
+                <img src= "https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                 alt= "stopwatch-icon" width= "20">
+                <span class= "time-left">10s</span>
+            </div>
+        </div>
+        <div id= "container">
+            <!-- questions and options will be displayed here -->
+        </div>
+        <button id= "next-button">Next</button>
+    </div>
+    <div class= "score-container hide">
+        <div id= "user-score">Demo Score</div>
+        <button id= "restart">Restart</button>
+    </div>
+    <script src= "assets/js/quiz.js"></script>
 </body>
 </html>
