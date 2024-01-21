@@ -22,26 +22,27 @@ h1 {
     height: 50%;
     width: 30%;
     padding: 2rem;
+    margin-left: 42rem;
+    margin-top: 10rem;
+    box-shadow: 3px 3px #ffebff;
 }
 
-.question {
+#question {
     font-family: 'creepster', system-ui,;
     font-size: 20px;
     color: #ffebff;
 }
 
-.choices {
+#choices {
     font-family: 'creepster', system-ui,;
     font-size: 20px;
     color: #ffebff;
 }
-
-
 
 #submit {
     cursor: pointer;
     margin: .1em;
-    margin-top: 4rem;
+    margin-top: 22rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     border: 2px solid #000000;

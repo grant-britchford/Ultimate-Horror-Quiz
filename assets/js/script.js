@@ -1,4 +1,4 @@
-const quizArray = [
+const questionArray = [
    {
       question:"Which serial killer was the inspiration for Thomas Harris' Silence of the Lambs?",
       choices: ["Ed Gein", "Alfredo Balli Trevino", "Walter Ellis"],
@@ -110,8 +110,8 @@ let score = 0;
 let correctAnswer = 3;
 
 function showQuestion() {
-   const quiz = quizArray[currentQuestion];
-   question.innerHTML = question.quizArray;
+   const question = questionArray[currentQuestion];
+   question.innerHTML = questionArray.choices;
 
    choices.innerHTML = "";
    question.choices.forEach(option => {
