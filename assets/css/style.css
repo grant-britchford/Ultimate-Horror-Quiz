@@ -30,13 +30,23 @@ button {
   outline: none;
   cursor: pointer;
 }
+#main-screen,
 #start-button,
 #restart {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.3em;
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
 }
+
+#how-to {
+  text-align: left;
+  font-family: 'creepster', system-ui;
+  font-size: 20px;
+  color: #ffebff;
+}
+
 #restart {
   margin-top: 0.9em;
 }
@@ -74,11 +84,14 @@ button {
   padding: .5em;
 }
 .question {
+  
   margin-bottom: 1.25em;
   font-weight: 600;
 }
 .option-div {
-  font-size: 0.9em;
+  font-family: 'Creepster', system-ui;
+  font-size: 25px;
+  color: #ffebff;
   width: 100%;
   padding: 1em;
   margin: 0.3em 0;
@@ -94,7 +107,7 @@ button {
 }
 #next-button {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: bold;
   margin-top: 1.5em;
   background-color: aqua;
@@ -110,13 +123,13 @@ button {
 }
 .incorrect {
   background-color: #ffdde0;
-  color: #d32f2f;
-  border-color: #d32f2f;
+  color: #f08080;
+  border-color:#ffebff;
 }
 .correct {
   background-color: #e7f6d5;
-  color: #689f38;
-  border-color: #689f38;
+  color: #adff2f;
+  border-color: #ffebff;
 }
 #user-score {
   font-size: 1.5em;
