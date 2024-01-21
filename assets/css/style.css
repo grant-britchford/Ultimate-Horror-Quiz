@@ -7,9 +7,138 @@ body {
 
 h1 {
     position: relative;
-    font-family: 'Cinzel Decorative', serif;
-    font-size: 60px;
+    font-family: 'Creepster', system-ui;
+    font-size: 70px;
     text-align: center;
     margin-top: 2rem;
     color: #ffebff;
 }
+
+.start-screen,
+.score-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#main-screen,
+#start-button,
+#restart {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+#how-to {
+  text-align: left;
+  font-family: 'creepster', system-ui;
+  font-size: 20px;
+  color: #ffebff;
+}
+
+#restart {
+  margin-top: 0.9em;
+}
+#display-container {
+  font-family: 'Creepster', system-ui;
+  font-size: 25px;
+  color: #ffebff;
+  background-color: #7a0000;
+  padding: 3.1em 1.8em;
+  width: 80%;
+  max-width: 37.5em;
+  margin: 0 auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+}
+.header {
+  margin-bottom: 1.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.6em;
+  border-bottom: 0.1em solid #c0bfd2;
+}
+.timer-div {
+  background-color: #7a0000;
+  width: 3em;
+  border: 2px solid #000000;
+  border-radius: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em;
+}
+.question {
+  
+  margin-bottom: 1.25em;
+  font-weight: 600;
+}
+.option-div {
+  font-family: 'Creepster', system-ui;
+  font-size: 25px;
+  color: #ffebff;
+  width: 100%;
+  padding: 1em;
+  margin: 0.3em 0;
+  text-align: left;
+  outline: none;
+  background: transparent;
+  border: 1px solid #c0bfd2;
+  border-radius: 0.3em;
+}
+.option-div:disabled {
+  color: #000000;
+  cursor: not-allowed;
+}
+#next-button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  background-color: aqua;
+  color: #000000;
+  padding: 1em;
+  border: 1px solid;
+  border-radius: 0.3em;
+  float: right;
+  
+}
+.hide {
+  display: none;
+}
+.incorrect {
+  background-color: #ffdde0;
+  color: #f08080;
+  border-color:#ffebff;
+}
+.correct {
+  background-color: #e7f6d5;
+  color: #adff2f;
+  border-color: #ffebff;
+}
+#user-score {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+ 
+
+
+
+
+
+

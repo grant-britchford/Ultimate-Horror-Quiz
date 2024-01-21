@@ -1,39 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Ultimate Horror Quiz
 
-Welcome,
+## Contents
+- Demo
+- Criteria
+- Design
+- Technologies
+- Features
+- Improvements
+- Testing
+- Bugs
+- Unsolved Bugs
+- Deployment
+- Credits
+- Acknowledgements
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Demo
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The live link is: https://grant-britchford.github.io/Ultimate-Horror-Quiz/
 
-## Codeanywhere Reminders
+### Criteria
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The Ultimate horror Quiz is an online quiz based on real life serial killers and the movies and books that they have inspired. Due to the content these questions have been based on the earlyier decades so not to cause offence.
 
-`python3 -m http.server`
+### Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Technologies
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- wireframes Sketcher was used to design the website layout.
+- HTML was used to create the structure of the website.
+- CSS was used to style the website.
+- Javascript was used to handle the backend functions of the website to keep all code clean.
 
-`http_server`
+### Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Testing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- All Javascript code was done using Gitpod code editorb and was tested using the devtools console before being pushed to the main Github repository.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Bugs
 
-To log into the Heroku toolbelt CLI:
+### Unsolved Bugs
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Deployment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Deployment was carried out using the following steps on GitHub:
 
----
+1. From the GitHub repository, click on the settings tab at the top of the repository.
+2. From the general settings list on the left of the page select Pages.
+3. On the pages screen go to the Branch section in the main display and select the first dropdown and select Main. This should then select Root in the second dropdown. If this happens then press Save.
+4. Return to the main repository page and refresh.
+5. After refreshing on the right hand side of the screen you should then see Deployments.
+6. select Deployments. On this page you will have updates to the website from point of deployment and a link at the top of the page to go to the live site.
 
-Happy coding!
+### Credits
+
+- Favicon was sourced from Icons8.com
+- Fonts were sourced from googleapis.com
+- Questions were sourced from "The ultimate serial killer trivia book authored by Jack Rosewood"
+
+### Acknowedgements
