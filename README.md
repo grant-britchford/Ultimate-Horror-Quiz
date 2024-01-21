@@ -56,10 +56,23 @@ This site has a fully functioning quiz game with score results and instructions 
 - HTML validation was carried out on W3C's markup validation service.
 ![HTML validation](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/35476816-0f05-447b-93fd-2996fece6645)
 
+- CSS validation was carried out on W3C's CSS validator.
+![CSS validation](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/d9b71e87-345f-45d5-9e4b-35b666998fbe)
+
+- LightHouse test
+![LightHouse](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/f0136937-d0ea-451d-9764-3256214de5bb)
+
+- Color validation
+- Color validation for the background and text.
+![color validation](https://github.com/grant-britchford/Ultimate-Horror-Quiz/assets/145594323/8868f8c0-83b2-416b-a586-afc7ac87731b)
 
 ### Bugs
 
+I had issues with the javascript to begin with then managed to sole the bugs i was getting by using an IDE platform which helped a lot.
+
 ### Unsolved Bugs
+
+No unsolved bugs. All buges were dealt with.
 
 ### Deployment
 
@@ -77,5 +90,11 @@ Deployment was carried out using the following steps on GitHub:
 - Favicon was sourced from Icons8.com
 - Fonts were sourced from googleapis.com
 - Questions were sourced from "The ultimate serial killer trivia book authored by Jack Rosewood"
+- Codescientist for their tutorials on making online games.
+- the 2 research books I've used "The step-by-step coding course book" and Neo D truemans "mastering javascript".
 
 ### Acknowedgements
+
+- As always my mentor, Olewafemi Medale.
+- The tutors at Code Institute for their help and guidance.
+- My familty for the strength not to give up.
